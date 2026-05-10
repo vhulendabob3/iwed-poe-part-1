@@ -1,0 +1,103 @@
+body {
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #252323;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+ header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    background-color: #000000;
+
+
+}
+
+nav {
+background-color: #f57c00;
+padding: 10px;
+
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+nav li a {
+    color: #d4caca;
+    text-decoration: wavy;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav li a:hover {
+background-color: #e65100;
+border-radius: 5px;
+}
+
+main {
+max-width: 1100px;
+margin: 30px auto;
+padding: 0 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: aqua;
+    color: #f36868;
+}
+
+
+
+
+
+
+
+
+
