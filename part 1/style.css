@@ -93,8 +93,71 @@ th {
     color: #f36868;
 }
 
+/* ===================== MOBILE DRAWER MENU ===================== */
+.hamburger {
+    display: none;
+    font-size: 2.2em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
 
+.drawer {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 75%;
+    height: 100vh;
+    background-color: #f57c00;
+    transition: left 0.4s ease;
+    padding: 20px;
+    z-index: 2000;
+    box-shadow: 3px 0 15px rgba(0,0,0,0.3);
+    overflow-y: auto;
+}
 
+.drawer.active {
+    left: 0;
+}
+
+/* Make sure text is clearly visible */
+.drawer ul {
+    list-style: none;
+    padding: 0;
+    margin: 70px 0 0 0;
+}
+
+.drawer li {
+    margin: 20px 0;
+}
+
+.drawer a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    padding: 12px 0;
+}
+
+.drawer a:hover {
+    background-color: #e65100;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+/* Hamburger on mobile only */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    
+    nav ul {
+        display: visible;
+    }
+}
 
 
 
